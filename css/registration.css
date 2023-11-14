@@ -1,0 +1,36 @@
+form {
+  padding-bottom: 40px;
+}
+.comment-form h3 {
+  font-size: 2.6rem;
+}
+form.form-wrapper {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+form.form-wrapper > textarea,
+.form-wrapper > input {
+  width: 100%;
+  font-size: 1.8rem;
+}
+.col-lg-50 {
+  width: calc(50% - 10px);
+  max-width: calc(50% - 10px);
+}
+.comment-form textarea {
+  margin-bottom: 0px;
+}
+.comment-form input[type="submit"] {
+  margin-top: 2.2223em;
+}
+@media screen and (max-width: 550px) {
+  .container.comment-form {
+    min-width: 100%;
+  }
+  .col-lg-50 {
+    width: 100% ;
+    max-width: 100%;
+  }
+}
